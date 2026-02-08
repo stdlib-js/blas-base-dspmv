@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dspmv@deno/mod.js';
+import dspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dspmv@v0.1.1-deno/mod.js';
 ```
 
 #### dspmv( order, uplo, N, α, AP, x, sx, β, y, sy )
@@ -162,7 +162,7 @@ dspmv.ndarray( 'column-major', 'lower', 3, 1.0, AP, 2, x, 1, 0, 1.0, y, -1, 2 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dspmv@deno/mod.js';
+import dspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dspmv@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
