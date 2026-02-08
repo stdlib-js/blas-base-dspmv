@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dspmv@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-dspmv/tags). For example,
+
+```javascript
 import dspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dspmv@v0.1.1-esm/index.mjs';
 ```
 
@@ -167,7 +172,7 @@ dspmv.ndarray( 'column-major', 'lower', 3, 1.0, AP, 2, x, 1, 0, 1.0, y, -1, 2 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dspmv@v0.1.1-esm/index.mjs';
+import dspmv from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dspmv@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
