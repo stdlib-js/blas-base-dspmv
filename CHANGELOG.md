@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-07-16)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`f9cdc5c`](https://github.com/stdlib-js/stdlib/commit/f9cdc5cb01451092ccdcbfdb6da7ba5699f56996) - **refactor:** add support for enums in `blas/base/dspmv` [(#13502)](https://github.com/stdlib-js/stdlib/pull/13502) _(by Kaustubh Patange)_
 -   [`279dfb5`](https://github.com/stdlib-js/stdlib/commit/279dfb500f2344c71fb7bacf40807abf91588001) - **bench:** use string interpolation in `blas/base/dspmv` [(#10514)](https://github.com/stdlib-js/stdlib/pull/10514) _(by Om-A-osc)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Kaustubh Patange
 -   Om-A-osc
 
 </section>
