@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-26)
+## Unreleased (2026-10-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`721d574`](https://github.com/stdlib-js/stdlib/commit/721d57401459f60169dd32622ebb94e19d100a76) - **test:** migrate `blas/base/dspmv` to ULP-based assertions [(#16132)](https://github.com/stdlib-js/stdlib/pull/16132) _(by Athan Reines)_
 -   [`f9cdc5c`](https://github.com/stdlib-js/stdlib/commit/f9cdc5cb01451092ccdcbfdb6da7ba5699f56996) - **refactor:** add support for enums in `blas/base/dspmv` [(#13502)](https://github.com/stdlib-js/stdlib/pull/13502) _(by Kaustubh Patange)_
 -   [`279dfb5`](https://github.com/stdlib-js/stdlib/commit/279dfb500f2344c71fb7bacf40807abf91588001) - **bench:** use string interpolation in `blas/base/dspmv` [(#10514)](https://github.com/stdlib-js/stdlib/pull/10514) _(by Om-A-osc)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Kaustubh Patange
 -   Om-A-osc
 
